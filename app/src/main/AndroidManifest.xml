@@ -13,6 +13,29 @@
         android:theme="@style/Theme.Progmob"
         tools:targetApi="31">
         <activity
+            android:name=".SampleCardView"
+            android:exported="false" />
+        <activity
+            android:name=".Recycler"
+            android:exported="true" />
+        <activity
+            android:name=".SampleRecyclerView"
+            android:exported="false" />
+        <activity
+            android:name=".SampleListView"
+            android:exported="false" />
+        <activity
+            android:name=".SampleList"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
             android:name=".ProteinTrackerActivity"
             android:exported="false" />
         <activity
@@ -26,12 +49,14 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
     </application>
 
