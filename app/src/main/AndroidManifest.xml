@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Progmob"
         tools:targetApi="31">
         <activity
+            android:name=".network.uts_progmob"
+            android:exported="false" />
+        <activity
+            android:name=".activity_mahasiswa"
+            android:exported="false" />
+        <activity
             android:name=".GetAPIActivity"
             android:exported="false" />
         <activity

@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        tvMain = findViewById(R.id.TextView2)
+        tvMain = findViewById(R.id.tvResponseCode)
         tvMain.text = "Halo Progmob 2023"
 
         val button6 : Button = findViewById(R.id.button6)
