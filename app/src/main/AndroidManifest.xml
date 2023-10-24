@@ -15,6 +15,18 @@
         android:theme="@style/Theme.Progmob"
         tools:targetApi="31">
         <activity
+            android:name=".UpdateMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GetPetaniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddPetaniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".network.AddPetaniActivity"
+            android:exported="false" />
+        <activity
             android:name=".network.uts_progmob"
             android:exported="false" />
         <activity
